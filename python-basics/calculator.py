@@ -1,8 +1,6 @@
 print("--------CALCULATOR--------")
-first_num_txt = input("enter your first number : ")
-first_num = float(first_num_txt)
-second_num_txt = input("enter your second number : ")
-second_num = float(second_num_txt)
+first_num = float(input("enter your first number: "))
+second_num = float(input("enter your second number: "))
 
 print(f"addition : {first_num + second_num}")
 print(f"difference : {first_num - second_num}")
