@@ -1,12 +1,7 @@
-name = "Arya"
-age = 21
-city = "Tehran"
-likes_python = True
+name = input("Your name: ")
+age_text = input("Your age: ")
+age = int(age_text)
 
-print(name)
-print(age)
-print(city)
-print(likes_python)
-
-print(f"My name is {name}, I am {age}, and I live in {city}.")
-print(f"Do I like Python? {likes_python}")
+print(f"Hello {name}.")
+print(f"You are {age} years old.")
+print(f"Next year you will be {age + 1}.")
